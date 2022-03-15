@@ -24,91 +24,91 @@
     "propertyList": [
         {
             "id": 1,
-            "location": "8204 Utah Way",
+            "address": "8204 Utah Way",
             "price": 158,
-            "title": "Fairfield Inn ",
-            "imageSrc": "https://cf.bstatic.com/xdata/images/hotel/square600/20673117.webp?k=7543c605135e1e9c63f2b866d336249a73adaf5deaf2eef99f991ca833053b6a&o=&s=1",
+            "name": "Fairfield Inn ",
+            "img": "https://cf.bstatic.com/xdata/images/hotel/square600/20673117.webp?k=7543c605135e1e9c63f2b866d336249a73adaf5deaf2eef99f991ca833053b6a&o=&s=1",
             "bestseller": false,
             "type": "Condos"
         },
         {
             "id": 2,
-            "location": "75 Valley Edge Road",
+            "address": "75 Valley Edge Road",
             "price": 130,
-            "title": "Hampton Inn",
-            "imageSrc": "https://cf.bstatic.com/xdata/images/hotel/square600/27372574.webp?k=2e47fb20d7457aea79c942e32aac713e7853fe26f1c1e2712be263496e71c6e2&o=&s=1",
+            "name": "Hampton Inn",
+            "img": "https://cf.bstatic.com/xdata/images/hotel/square600/27372574.webp?k=2e47fb20d7457aea79c942e32aac713e7853fe26f1c1e2712be263496e71c6e2&o=&s=1",
             "bestseller": true,
             "type": "Condos"
         },
         {
             "id": 3,
-            "location": "79 8th Drive",
+            "address": "79 8th Drive",
             "price": 194,
-            "title": "Sheraton Gateway",
-            "imageSrc": "https://cf.bstatic.com/xdata/images/hotel/square600/230498928.webp?k=f89d3e5080f63ceb37321954ff3400002afde643175f2c5760cb15bd175ec35f&o=&s=1",
+            "name": "Sheraton Gateway",
+            "img": "https://cf.bstatic.com/xdata/images/hotel/square600/230498928.webp?k=f89d3e5080f63ceb37321954ff3400002afde643175f2c5760cb15bd175ec35f&o=&s=1",
             "bestseller": true,
             "type": "Apartments"
         },
         {
             "id": 4,
-            "location": "88602 Hansons Lane",
+            "address": "88602 Hansons Lane",
             "price": 198,
-            "title": "Admiral Inn",
-            "imageSrc": "https://cf.bstatic.com/xdata/images/hotel/square600/4325661.webp?k=2adffa1dc8559107746af41b3bcb2cc517099d12608feb3471bf79b33f5f464c&o=&s=1",
+            "name": "Admiral Inn",
+            "img": "https://cf.bstatic.com/xdata/images/hotel/square600/4325661.webp?k=2adffa1dc8559107746af41b3bcb2cc517099d12608feb3471bf79b33f5f464c&o=&s=1",
             "bestseller": true,
             "type": "Apartments"
         },
         {
             "id": 5,
-            "location": "2 Kingsford Crossing",
+            "address": "2 Kingsford Crossing",
             "price": 123,
-            "title": "Hyatt Place",
-            "imageSrc": "https://cf.bstatic.com/xdata/images/hotel/square600/266171220.webp?k=dd6c8747f4563d9a4d5434286994d2f8c00be210b9042f551853917f93326605&o=&s=1",
+            "name": "Hyatt Place",
+            "img": "https://cf.bstatic.com/xdata/images/hotel/square600/266171220.webp?k=dd6c8747f4563d9a4d5434286994d2f8c00be210b9042f551853917f93326605&o=&s=1",
             "bestseller": true,
             "type": "Apartments"
         },
         {
             "id": 6,
-            "location": "9 Northridge Place",
+            "address": "9 Northridge Place",
             "price": 170,
-            "title": "Four Points",
-            "imageSrc": "https://cf.bstatic.com/xdata/images/hotel/square600/328045013.webp?k=e17e9ada73cb9e87309adb392ffebd81a69d296056d3568d88e98d730ec11841&o=&s=1",
+            "name": "Four Points",
+            "img": "https://cf.bstatic.com/xdata/images/hotel/square600/328045013.webp?k=e17e9ada73cb9e87309adb392ffebd81a69d296056d3568d88e98d730ec11841&o=&s=1",
             "bestseller": false,
             "type": "Hotels"
         },
         {
             "id": 7,
-            "location": "17 Saint Paul Place",
+            "address": "17 Saint Paul Place",
             "price": 199,
-            "title": "Best Western Plus",
-            "imageSrc": "https://cf.bstatic.com/xdata/images/hotel/square600/112042734.webp?k=438643da24fe1d94abdc85b9faf33e512b66f8130c732bc0c5e3e58099e60dbd&o=&s=1",
+            "name": "Best Western Plus",
+            "img": "https://cf.bstatic.com/xdata/images/hotel/square600/112042734.webp?k=438643da24fe1d94abdc85b9faf33e512b66f8130c732bc0c5e3e58099e60dbd&o=&s=1",
             "bestseller": false,
             "type": "Hotels"
         },
         {
             "id": 8,
-            "location": "4247 Karstens Terrace",
+            "address": "4247 Karstens Terrace",
             "price": 158,
-            "title": "Sandman Signature",
-            "imageSrc": "https://cf.bstatic.com/xdata/images/hotel/square600/287850560.webp?k=93703e3e04d5fee4bc1a27464e9654050d154b0b671994dc1fa27445d4b99494&o=&s=1",
+            "name": "Sandman Signature",
+            "img": "https://cf.bstatic.com/xdata/images/hotel/square600/287850560.webp?k=93703e3e04d5fee4bc1a27464e9654050d154b0b671994dc1fa27445d4b99494&o=&s=1",
             "bestseller": true,
             "type": "Hotels"
         },
         {
             "id": 9,
-            "location": "6794 Charing Cross Junction",
+            "address": "6794 Charing Cross Junction",
             "price": 182,
-            "title": "Hilton Garden",
-            "imageSrc": "https://cf.bstatic.com/xdata/images/hotel/square600/46845655.webp?k=6a96423024c62522d5aa98bc10d18f3f95c178e79fdd5d8e3110546043c45018&o=&s=1",
+            "name": "Hilton Garden",
+            "img": "https://cf.bstatic.com/xdata/images/hotel/square600/46845655.webp?k=6a96423024c62522d5aa98bc10d18f3f95c178e79fdd5d8e3110546043c45018&o=&s=1",
             "bestseller": false,
             "type": "Resorts"
         },
         {
             "id": 10,
-            "location": "39 Forest Avenue",
+            "address": "39 Forest Avenue",
             "price": 184,
-            "title": "Monte Carlo",
-            "imageSrc": "https://cf.bstatic.com/xdata/images/hotel/square600/257863354.webp?k=820e0ad5c66ec7f6def5bbaee733ed1fe42d7bff8f5ce8457b37945c181bfd38&o=&s=1",
+            "name": "Monte Carlo",
+            "img": "https://cf.bstatic.com/xdata/images/hotel/square600/257863354.webp?k=820e0ad5c66ec7f6def5bbaee733ed1fe42d7bff8f5ce8457b37945c181bfd38&o=&s=1",
             "bestseller": true,
             "type": "Resorts"
         }
@@ -149,6 +149,68 @@
             "price": 184,
             "title": "Monte Carlo",
             "imageSrc": "https://cf.bstatic.com/xdata/images/hotel/square600/257863354.webp?k=820e0ad5c66ec7f6def5bbaee733ed1fe42d7bff8f5ce8457b37945c181bfd38&o=&s=1"
+        }
+    ],
+    "propertyDetails": [
+        {
+            "id": 1,
+            "propertyDescription": "This Toronto area eco-friendly hotel is just 2 km from the Toronto Pearson Airport via a direct, free train.\n Alt Hotel Toronto Airport has been welcoming guests since 22 May 2012.",
+            "houseRules": "Cancellation and prepayment policies vary according to accommodation type.\n Please check what conditions may apply to each option when making your selection. \n The minimum age for check-in is 18. \n Pets are allowed on request. \n Charges may be applicable.",
+            "amenities": "A seating area and a work desk are provided in the contemporary rooms at Alt Hotel Toronto Airport. \n Free Wi-Fi is provided and free toiletries are available. \n A fitness room is on site and a 24-hour reception is featured for maximum guest convenience. \n A grab-and-go breakfast, lunch and dinner is available at the Toronto Airport Alt Hotel."
+        },
+        {
+            "id": 2,
+            "propertyDescription": "Featuring a garden, Riviera Plaza and Conference Centre Calgary Airport is set in Calgary in the Alberta region, 8 km from Calgary Zoo Botanical Garden & Prehistoric Park and 9 km from Calgary Tower.\n Among the facilities at this property are a 24-hour front desk and an ATM, along with free WiFi throughout the property.\n The hotel features family rooms.",
+            "houseRules": "A damage deposit of CAD 100 is required on arrival.\n This will be collected by credit card.\n You should be reimbursed on check-out.\n Your deposit will be refunded in full via credit card, subject to an inspection of the property.\n Children aged 18 years and above are considered adults at this property.",
+            "amenities": "Free public parking is possible on site (reservation is not needed). \n WiFi is available in all areas and is free of charge. \n Vending machine available"
+        },
+        {
+            "id": 3,
+            "propertyDescription": "Country Hills Golf Course is 11 minutes’ drive and Nose Hill Park is 13 minutes’ drive from Comfort Inn & Suites. \n Calgary city centre is only 18 km away. \n You're eligible for a Genius discount at Comfort Inn & Suites Airport North! \n To save at this property, all you have to do is sign in.",
+            "houseRules": "Cancellation and prepayment policies vary according to accommodation type. \n Please check what conditions may apply to each option when making your selection. \n There is no capacity for extra beds at this property. \n Pets are not allowed. \n When booking more than 5 rooms, different policies and additional supplements may apply.",
+            "amenities": "1 swimming pool.\n Airport shuttle (free).\n Non-smoking rooms.\n Good fitness centre.\n Facilities for disabled guests.\n Free parking.\n Breakfast."
+        },
+        {
+            "id": 4,
+            "propertyDescription": "Just 6 minutes' drive from Calgary International Airport, this hotel provides an on-site restaurant and a free airport shuttle (5 am - 1 am daily). \n Highway 2 is just 5 minutes' drive away. \n Harvest Hills Golf Course is 5 km from Acclaim Hotel Calgary Airport.",
+            "houseRules": "Cancellation and prepayment policies vary according to accommodation type. \n Please check what conditions may apply to each option when making your selection. \n There is no capacity for cots at this property. \n The minimum age for check-in is 18.Pets are allowed- Charges may be applicable.",
+            "amenities": "1 swimming pool. \n Airport shuttle (free). \n Non-smoking rooms. \n Good fitness centre. \n Facilities for disabled guests. \n Free parking. \n Breakfast."
+        },
+        {
+            "id": 5,
+            "propertyDescription": "Just 6 minutes' drive from Calgary International Airport, this hotel provides an on-site restaurant and a free airport shuttle (5 am - 1 am daily). \n The rooftop Sky Deck at Hotel Acclaim Calgary Airport features jetted spa tubs.\n A fitness centre is available to all guests.\n A business centre is on site and dry cleaning services can be arranged.",
+            "houseRules": "Cancellation and prepayment policies vary according to accommodation type. \n Please check what conditions may apply to each option when making your selection. \n There is no capacity for cots at this property. \n The minimum age for check-in is 18.Pets are allowed- Charges may be applicable.",
+            "amenities": "Airport shuttle (free).\n Non-smoking rooms.\n very good fitness centre.\n Room service.\n Restaurant Facilities for disabled guests.\n Bar."
+        },
+        {
+            "id": 6,
+            "propertyDescription": "Country Hills Golf Course is 11 minutes’ drive and Nose Hill Park is 13 minutes’ drive from Comfort Inn & Suites. \n Calgary city centre is only 18 km away. \n You're eligible for a Genius discount at Comfort Inn & Suites Airport North! \n To save at this property, all you have to do is sign in.",
+            "houseRules": "Cancellation and prepayment policies vary according to accommodation type. \n Please check what conditions may apply to each option when making your selection. \n There is no capacity for extra beds at this property. \n Pets are not allowed. \n When booking more than 5 rooms, different policies and additional supplements may apply.",
+            "amenities": "1 swimming pool.\n Airport shuttle (free).\n Non-smoking rooms.\n Good fitness centre.\n Facilities for disabled guests.\n Free parking.\n Breakfast."
+        },
+        {
+            "id": 7,
+            "propertyDescription": "Featuring a garden, Riviera Plaza and Conference Centre Calgary Airport is set in Calgary in the Alberta region, 8 km from Calgary Zoo Botanical Garden & Prehistoric Park and 9 km from Calgary Tower.\n Among the facilities at this property are a 24-hour front desk and an ATM, along with free WiFi throughout the property.\n The hotel features family rooms.",
+            "houseRules": "A damage deposit of CAD 100 is required on arrival.\n This will be collected by credit card.\n You should be reimbursed on check-out.\n Your deposit will be refunded in full via credit card, subject to an inspection of the property.\n Children aged 18 years and above are considered adults at this property.",
+            "amenities": "Free public parking is possible on site (reservation is not needed). \n WiFi is available in all areas and is free of charge. \n Vending machine available"
+        },
+        {
+            "id": 8,
+            "propertyDescription": "This Toronto area eco-friendly hotel is just 2 km from the Toronto Pearson Airport via a direct, free train.\n Alt Hotel Toronto Airport has been welcoming guests since 22 May 2012.",
+            "houseRules": "Cancellation and prepayment policies vary according to accommodation type.\n Please check what conditions may apply to each option when making your selection. \n The minimum age for check-in is 18. \n Pets are allowed on request. \n Charges may be applicable.",
+            "amenities": "A seating area and a work desk are provided in the contemporary rooms at Alt Hotel Toronto Airport. \n Free Wi-Fi is provided and free toiletries are available. \n A fitness room is on site and a 24-hour reception is featured for maximum guest convenience. \n A grab-and-go breakfast, lunch and dinner is available at the Toronto Airport Alt Hotel."
+        },
+        {
+            "id": 9,
+            "propertyDescription": "Country Hills Golf Course is 11 minutes’ drive and Nose Hill Park is 13 minutes’ drive from Comfort Inn & Suites. \n Calgary city centre is only 18 km away. \n You're eligible for a Genius discount at Comfort Inn & Suites Airport North! \n To save at this property, all you have to do is sign in.",
+            "houseRules": "Cancellation and prepayment policies vary according to accommodation type. \n Please check what conditions may apply to each option when making your selection. \n There is no capacity for extra beds at this property. \n Pets are not allowed. \n When booking more than 5 rooms, different policies and additional supplements may apply.",
+            "amenities": "1 swimming pool.\n Airport shuttle (free).\n Non-smoking rooms.\n Good fitness centre.\n Facilities for disabled guests.\n Free parking.\n Breakfast."
+        },
+        {
+            "id": 10,
+            "propertyDescription": "Featuring a garden, Riviera Plaza and Conference Centre Calgary Airport is set in Calgary in the Alberta region, 8 km from Calgary Zoo Botanical Garden & Prehistoric Park and 9 km from Calgary Tower.\n Among the facilities at this property are a 24-hour front desk and an ATM, along with free WiFi throughout the property.\n The hotel features family rooms.",
+            "houseRules": "A damage deposit of CAD 100 is required on arrival.\n This will be collected by credit card.\n You should be reimbursed on check-out.\n Your deposit will be refunded in full via credit card, subject to an inspection of the property.\n Children aged 18 years and above are considered adults at this property.",
+            "amenities": "Free public parking is possible on site (reservation is not needed). \n WiFi is available in all areas and is free of charge. \n Vending machine available"
         }
     ]
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ShowItemTile = (props) => {
+const BestPropertyTile = (props) => {
     return (
         <div>
             <div className="card">
@@ -12,7 +12,7 @@ const ShowItemTile = (props) => {
                 </div>
                 <div className="card-body">
                     <h4 className="card-title">{props.description}</h4>
-                    <div className={props.price ? undefined : 'hidden'}>
+                    <div className={props.price ? undefined : 'hiddenpro'}>
                         <h4 className="card-title">${props.price}CAD/Night</h4>
                     </div>
                 </div>
@@ -22,4 +22,4 @@ const ShowItemTile = (props) => {
     )
 }
 
-export default ShowItemTile
+export default BestPropertyTile

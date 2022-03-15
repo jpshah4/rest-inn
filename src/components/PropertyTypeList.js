@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import ShowItemTile from './ShowItemTile';
+import PropertyTypeTile from './PropertyTypeTile';
+
 
 const PropertyTypeList = () => {
 
@@ -30,7 +31,7 @@ const PropertyTypeList = () => {
                     {
                         propertyTypes.map(type => (
                             <div className="col ">
-                                <ShowItemTile id={type.id} image={type.imageSrc} description={type.description} />
+                                <PropertyTypeTile id={type.id} image={type.imageSrc} description={type.description} />
                             </div>))
                     }
                 </div>

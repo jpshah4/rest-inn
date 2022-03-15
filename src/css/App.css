@@ -58,6 +58,37 @@ img.card-img-top {
 h4.card-title {
   font-size: 14px;
 }
-.card-body.hidden{
+.card-body.hiddenpro{
   display: none!important;
+}
+footer img{
+  height: 240px;
+}
+li {
+  list-style-type: none;
+  padding: 0.5rem;
+}
+.footer-button{
+  width: 10rem;
+}
+.align-left{
+  text-align: left;
+}
+.position-relative {
+  position: relative!important;
+  margin-top: 2rem;
+}
+.detail-Image{
+  height: 400px;
+  width: 400px;
+}
+.position-relative h6{
+  white-space: pre-line;
+  text-align: left;
+}
+.img-login{
+  height: 150px!important;
+}
+.form-control{
+  border: 0!important;
 }

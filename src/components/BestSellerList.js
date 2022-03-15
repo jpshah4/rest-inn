@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import ShowItemTile from './ShowItemTile';
+import BestPropertyTile from './BestPropertyTile';
 
 const BestSellerList = () => {
     const [bestProperties, setBestproperties] = useState([{
@@ -32,7 +32,7 @@ const BestSellerList = () => {
                     {
                         bestProperties.map(best => (
                             <div className="col">
-                                <ShowItemTile image={best.imageSrc} description={best.title} price={best.price} />
+                                <BestPropertyTile image={best.imageSrc} description={best.title} price={best.price} />
                             </div >
                         ))
                     }
