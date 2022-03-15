@@ -5,13 +5,13 @@ const BestSellerList = () => {
     const [bestProperties, setBestproperties] = useState([{
         id: 0,
         price: 0,
-        title: "",
-        imageSrc: null
+        name: "",
+        img: null
     }]);
 
     useEffect(() => {
 
-        const URL = 'http://localhost:5000/bestPropertyList'
+        const URL = 'http://localhost:5000/propertyList?bestseller=true'
 
         fetch(URL)
             .then(response => response.json())
@@ -32,7 +32,7 @@ const BestSellerList = () => {
                     {
                         bestProperties.map(best => (
                             <div className="col">
-                                <BestPropertyTile image={best.imageSrc} description={best.title} price={best.price} />
+                                <BestPropertyTile image={best.img} description={best.name} price={best.price} />
                             </div >
                         ))
                     }
