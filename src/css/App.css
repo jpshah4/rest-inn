@@ -35,4 +35,29 @@
   to {
     transform: rotate(360deg);
   }
+
+  
+}
+.navImg{
+  height: 182px;
+  width: 263px;
+}
+
+nav .col-2{
+  padding-bottom: 0.5rem;
+}
+i.bi.bi-person {
+  font-size: xxx-large;
+}
+.carousel-item img{
+  height: 380px;
+}
+img.card-img-top {
+  height: 240px;
+}
+h4.card-title {
+  font-size: 14px;
+}
+.card-body.hidden{
+  display: none!important;
 }
