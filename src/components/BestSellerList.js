@@ -3,15 +3,15 @@ import BestPropertyTile from './BestPropertyTile';
 
 const BestSellerList = () => {
     const [bestProperties, setBestproperties] = useState([{
-        id: 0,
+        _id: null,
         price: 0,
-        name: "",
-        img: null
+        title: "",
+        imgLocation: null
     }]);
 
     useEffect(() => {
 
-        const URL = 'http://localhost:5000/propertyList?bestseller=true'
+        const URL = 'http://localhost:8080/Properties?bestSeller=true'
 
         fetch(URL)
             .then(response => response.json())
@@ -32,7 +32,7 @@ const BestSellerList = () => {
                     {
                         bestProperties.map(best => (
                             <div className="col">
-                                <BestPropertyTile image={best.img} description={best.name} price={best.price} />
+                                <BestPropertyTile image={best.imgLocation} description={best.title} price={best.price} />
                             </div >
                         ))
                     }

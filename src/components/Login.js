@@ -1,6 +1,31 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Login = () => {
+
+    const [username, setUserName] = useState("");
+    const [Password, setPassword] = useState("");
+
+    const validateUser = (e) => {
+        e.preventDefault();
+        console.log("called")
+        console.log(username)
+        console.log(Password)
+        const requestOptions = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ "userName": username, "password": Password })
+        };
+        fetch('http://localhost:8080/Auth', requestOptions)
+            .then((response) => {
+                if (response.status == 200) {
+                    window.location.href = '/'
+                } else {
+                    alert("Wrong username or password")
+                }
+            }
+            )
+    }
+
     return (
         <div>
 
@@ -18,7 +43,7 @@ const Login = () => {
                                 <label htmlFor="email">Email</label>
                             </div>
                             <div className="col">
-                                <input type="text" id="email" />
+                                <input type="text" id="email" value={username} onChange={((evt) => setUserName(evt.target.value))} />
                             </div>
                         </div>
 
@@ -27,12 +52,12 @@ const Login = () => {
                                 <label htmlFor="password">Password</label>
                             </div>
                             <div className="col">
-                                <input type="text" id="password" />
+                                <input type="password" id="password" value={Password} onChange={((evt) => setPassword(evt.target.value))} />
                             </div>
                         </div>
 
                         <div className="form-control d-flex mt-3 justify-content-center">
-                            <button className="btn btn-primary" type="submit">Login</button>
+                            <button className="btn btn-primary" type="submit" onClick={validateUser}>Login</button>
                         </div>
                     </div>
                 </form>

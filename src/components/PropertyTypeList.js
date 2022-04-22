@@ -12,7 +12,7 @@ const PropertyTypeList = () => {
 
     useEffect(() => {
 
-        const URL = 'http://localhost:5000/propertyTypes'
+        const URL = 'http://localhost:8080/PropertyType'
         fetch(URL)
             .then(response => response.json())
             .then(json => {

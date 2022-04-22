@@ -49,8 +49,8 @@ const SignUp = () => {
                         </div>
 
 
-                        <input class="form-check-input m-4" type="checkbox" value="" id="flexCheckDefault" />
-                        <label class="form-check-label m-3 p-1" for="flexCheckDefault">
+                        <input className="form-check-input m-4" type="checkbox" value="" id="flexCheckDefault" />
+                        <label className="form-check-label m-3 p-1" for="flexCheckDefault">
                             You agree to the terms and conditions*
                         </label>
 

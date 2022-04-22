@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
+
+    const [searchBox, setSearchBox] = useState("");
+
     return (
         <div>
             <nav className="bg-light">
@@ -13,8 +16,10 @@ const Header = () => {
                             </a></div>
                         <div className="col-5">
                             <form className="form-inline my-2 d-flex">
-                                <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                                <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                <input className="form-control mr-sm-2" type="search" placeholder="Search" value={searchBox} onChange={((evt) => setSearchBox(evt.target.value))} />
+                                <Link to={`/properties/${searchBox}`}>
+                                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                </Link>
                             </form>
                         </div>
                         <div className="col-2">
@@ -23,11 +28,11 @@ const Header = () => {
                             </Link>
                         </div>
                         <div className="col-2">
-                            <div class="dropdown">
+                            <div className="dropdown">
                                 <button className="btn  dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="bi bi-person" ></i></button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="/login">Login</a>
-                                    <a class="dropdown-item" href="/signup">Sign up</a>
+                                <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a className="dropdown-item" href="/login">Login</a>
+                                    <a className="dropdown-item" href="/signup">Sign up</a>
                                 </div>
                             </div>
                         </div>
