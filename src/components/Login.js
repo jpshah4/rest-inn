@@ -7,9 +7,6 @@ const Login = () => {
 
     const validateUser = (e) => {
         e.preventDefault();
-        console.log("called")
-        console.log(username)
-        console.log(Password)
         const requestOptions = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -40,7 +37,7 @@ const Login = () => {
                     <div className="form-control">
                         <div className="row">
                             <div className="col">
-                                <label htmlFor="email">Email</label>
+                                <label htmlFor="email">User Name</label>
                             </div>
                             <div className="col">
                                 <input type="text" id="email" value={username} onChange={((evt) => setUserName(evt.target.value))} />
